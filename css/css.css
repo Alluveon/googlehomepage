@@ -1,0 +1,34 @@
+/*I might use this as my "styling" sheet just to get the text colors n everything done before I deal with layout???*/
+
+:root {
+  margin: 0;
+  padding: 0;
+}
+
+/*BASIC STYLES*/
+body{
+  font-size: 14px;
+}
+/*link rules */ 
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover, a:active{
+  text-decoration: underline;
+}
+
+a:visited {
+  color: black;
+}
+
+.roboto {
+  font-size: 13px;
+}
+.button {
+
+}
