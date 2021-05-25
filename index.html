@@ -26,7 +26,7 @@
   <header>
     <div class="container-flex">
     
-    <nav>
+    <nav id="navigation">
         <!--Separating left and right parts of header, then
         will separate with flex. I think? -->
       <div class="left">
@@ -50,15 +50,16 @@
    </header> 
    
   <!-- ------Main Section----- -->
-   <main>
+   <main class="main">
   
       <img src="images/googlelogo_color_272x92dp.png" alt="Google"/>
 
       <!--Search bar + Buttons. I decided to make it a Form-->
       <div class="search-bar">
       <form action="GET">
-        <input type="text" placeholder="Search" class="search">
-
+      <label for="search" class="sr-only">Search</label>
+        <input type="text" placeholder="" class="search">
+      
       <div class="buttons">
         <button class="button">Google Search</button>
         <button class="button">I'm Feeling Lucky</button>
@@ -69,7 +70,7 @@
    </main>
 
 <!-- ------ Footer Section ------->
-   <footer>
+   <footer id="footer">
 
     <!--Footer left side-->
     <div class="container-flex">

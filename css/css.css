@@ -3,6 +3,7 @@
 :root {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 /*BASIC STYLES*/
@@ -11,12 +12,12 @@ body{
   font-family: Arial, sans-serif;
   color: #000;
 }
-/*link rules */ 
 
 li {
   list-style: none;
 }
 
+/*links*/
 a {
   text-decoration: none;
 }
@@ -29,21 +30,32 @@ a:visited {
   color: black;
 }
 
+/*screen-reader label*/
+.sr-only{
+  position: absolute;
+  left: -10000px;
+}
+/*Searchbar styles*/
+.search {
+  
+}
+
+
 /*button styles*/
 .button {
   font-family: Arial, sans-serif;
-  padding: 10px 16px;
+  padding: 8px 16px;
   background-color: #ececec65;
   border-radius: 4px;
   border: 0px;
 }
 
 .button:hover, .button:active{
- 
   border: 1px #d4d4d4 solid;
-
    /*box-shadow rule here*/
 }
+
+/*footer*/
 .left-footer a, .right-footer a {
   color: #7e7e7e;
 }
