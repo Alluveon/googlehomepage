@@ -8,8 +8,11 @@
 /*BASIC STYLES*/
 body{
   font-size: 14px;
+  font-family: Arial, sans-serif;
+  color: #000;
 }
 /*link rules */ 
+
 li {
   list-style: none;
 }
@@ -26,9 +29,21 @@ a:visited {
   color: black;
 }
 
-.roboto {
-  font-size: 13px;
-}
+/*button styles*/
 .button {
+  font-family: Arial, sans-serif;
+  padding: 10px 16px;
+  background-color: #ececec65;
+  border-radius: 4px;
+  border: 0px;
+}
 
+.button:hover, .button:active{
+ 
+  border: 1px #d4d4d4 solid;
+
+   /*box-shadow rule here*/
+}
+.left-footer a, .right-footer a {
+  color: #7e7e7e;
 }
