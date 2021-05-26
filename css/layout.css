@@ -22,16 +22,25 @@ li {
 .right {
   background-color: rgb(105, 159, 177);
 }
-
+/* how to add more space top and bottom of the page height-wise?*/
 /*navbar*/
 
 .nav {
   display: flex;
 }
 
+
 .left li, .right li {
   margin: 10px;
+  display: inline-block;
 }
+
+
+
+
+
+
+
 /*main display*/
 .google {
   display: flex;
