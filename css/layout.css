@@ -23,11 +23,21 @@ li {
   background-color: rgb(105, 159, 177);
 }
 
+/*navbar*/
+
+.nav {
+  display: flex;
+}
+
+.left li, .right li {
+  margin: 10px;
+}
 /*main display*/
 .google {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 10px;
 }
 
 .googleimg{
@@ -35,5 +45,11 @@ li {
 }
 
 .buttons{
-  
+  padding: 15px;
+  display: flex; 
+  justify-content: center;
+}
+
+.button {
+  margin-left: 10px;
 }
