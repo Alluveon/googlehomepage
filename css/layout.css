@@ -1,4 +1,4 @@
-:root {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -8,38 +8,24 @@
 li {
   display: inline-block;
 }
-.container-flex{
-  background-color: rgb(223, 223, 223);
-  display: flex;
-  justify-content: center;
-}
-
-.left {
-  background-color: rgb(105, 159, 177);
-
-}
 
 .right {
   background-color: rgb(105, 159, 177);
+  width: 400px;
 }
 /* how to add more space top and bottom of the page height-wise?*/
+/*also should be able to reuse most of navbar code for footer - edit for that.*/
 /*navbar*/
 
-.nav {
+.navbar {
   display: flex;
+  justify-content: space-between;
+  padding: 20px 15px;
 }
 
-
-.left li, .right li {
-  margin: 10px;
-  display: inline-block;
+.navbar a{
+  padding: 10px;
 }
-
-
-
-
-
-
 
 /*main display*/
 .google {
