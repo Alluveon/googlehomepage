@@ -48,3 +48,14 @@ li {
 .button {
   margin-left: 10px;
 }
+
+/* footer */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 15px;
+}
+.footer a{
+  padding: 10px;
+}

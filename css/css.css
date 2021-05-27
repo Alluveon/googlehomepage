@@ -52,13 +52,16 @@ a:visited {
   border: 0px;
 }
 
-.button:hover, .button:active{
-  
+.button:hover, .button:active{ 
   box-shadow: 1px 2px 10px 1px rgba(141, 141, 141, 0.356); 
   border: 1px solid rgb(216, 216, 216);
 }
 
 /*footer*/
-.left-footer a, .right-footer a {
-  color: #7e7e7e;
+.footer {
+  background-color:rgba(196, 196, 196, 0.226);
+}
+
+.footer a{
+  color:rgba(77, 77, 77, 0.801);
 }
