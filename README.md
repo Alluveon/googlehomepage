@@ -1,7 +1,4 @@
 # Google_Homepage
-Google Homepage recreation
-
-
 
 HTML + CSS recreation of Google homepage
 
