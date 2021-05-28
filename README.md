@@ -3,8 +3,9 @@ Google Homepage recreation
 
 
 
-Google Homepage 
+HTML + CSS recreation of Google homepage
 
-Future adjustments? 
+Future adjustments:
 - Responsive media queries 
-- align icons with text differently
+- align Google font/Font awesome icons with text
+- connect to search API ?
