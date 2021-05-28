@@ -39,7 +39,7 @@ li {
 }
 
 .googleimg{
-  width: 400px;
+  width: 275px;
 }
 
 .buttons{
@@ -56,13 +56,23 @@ li {
 
 .footer {
   display: flex;
+  justify-content: space-between;
   padding: 20px 15px;
-  align-items: 
+ 
 }
+
 .footer a{
   padding: 10px;
 }
 
 .container {
-
+  display: flex;
+  flex-flow: column; /*flex flow vs flex direction?*/
+  height: 100%;
+}
+.container .header{
+  flex: 0 1 auto;
+}
+.container .content {
+  flex: 1 1 auto;
 }
