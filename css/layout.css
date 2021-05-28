@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  height: 100%;
+}
 
 /*using colors on BG to help me visualize the formatting*/
 li {
@@ -53,9 +56,13 @@ li {
 
 .footer {
   display: flex;
-  justify-content: space-between;
   padding: 20px 15px;
+  align-items: 
 }
 .footer a{
   padding: 10px;
+}
+
+.container {
+
 }
