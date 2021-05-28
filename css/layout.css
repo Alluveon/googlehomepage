@@ -32,14 +32,18 @@ li {
 
 /*main display*/
 .google {
+  height: 70%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: center;
+  align-items: center; 
   margin: 10px;
+  
 }
 
 .googleimg{
-  width: 275px;
+  width: 300px;
+  padding: 20px;
 }
 
 .buttons{
@@ -75,4 +79,7 @@ li {
 }
 .container .content {
   flex: 1 1 auto;
+  
 }
+
+
